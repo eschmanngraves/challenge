@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style1.css">
+    <title>Encriptador de textos</title>
+</head>
+
+<body>
+    <header>
+        <img src="/imagen/Frame 6.png" alt="logo de Alura" class="logo">
+
+    </header>
+    <main>
+
+        <section class="encriptador">
+
+            <textarea class="text_area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="aviso">
+                <img src="/imagen/circle-exclamation-solid.svg" class="img_aviso" alt="Imagen aviso">
+                <h6 class="aviso_texto"> Solo letras minúsculas y sin acento.</h6>
+            </div>
+            <div class="container__botones">
+                <button class="container__btnEncriptar"> Encriptar</button>
+                <button class="container__btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+
+            <div class="Tarjeta_contenedor">
+                <img src="/imagen/Muñeco.png" alt="Imagen Muñeco" class="img_muñeco">
+                <p class="information_Uno"> Ningun mensaje fue encontrado</p>
+                <p class="information_Dos">Ingresa el texto que desees encriptar o desencriptar</p>
+
+            </div>
+            <textarea type="mensaje" class="mensaje" cols="20" rows="10" readonly></textarea>
+            <button class="btnCopiar">Copiar</button>
+
+
+        </section>
+
+
+
+
+    </main>
+    <footer>
+
+        <p class="CopyRight">Encriptador de texto- desarrollado por Jorge</p>
+        <a class="footer_enlace__link" href="https://instagram.com/"> <img src="/imagen/instagram-brands-solid.svg"
+                alt="img_instagram" id="imgInstagram"> Instagram</a>
+        <a class="footer_enlace__link" href="https://github.com/"> <img src="/imagen/github-brands-solid.svg"
+                alt="img_github" id="imgGithub"> Github</a>
+
+    </footer>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
